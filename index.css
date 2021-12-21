@@ -3,11 +3,33 @@
     font-family: Waterfall;
 }
 .mobile-bar{
-    background: #C6FFDD;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: #C6FFDD;
+background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  */
 
 }
 .Main-Banner{
+    animation: right-to  700ms;
+}
+@keyframes right-to {
+    0%{
+        transform:translateY(-100%) ;
+    }
+    100%{
+        transform:translateY(0) ;
+    }
+}
+.opacity-change{
     
+    animation: opacity-to 1s 750ms;
+}
+
+@keyframes opacity-to {
+    0%{
+        background: #fff;
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
 }
