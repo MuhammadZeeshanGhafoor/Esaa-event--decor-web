@@ -2,12 +2,6 @@
 .Main-Name{
     font-family: Waterfall;
 }
-.mobile-bar{
-    /* background: #C6FFDD;
-background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  
-background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  */
-
-}
 .Main-Banner{
     animation: right-to  700ms;
 }
